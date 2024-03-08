@@ -6,7 +6,7 @@ def choose_words():
 
 print("Lets Play Hangman!!")
 print("You have 5 lives so try to guess the word within 5 attempts! Good luck!!")
-lives=6
+lives=5
 word=choose_words()
 display=[]
 for i in range(len(word)):
